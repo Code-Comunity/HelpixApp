@@ -14,3 +14,11 @@ export const Header = styled.View`
   justify-content: center;
   align-items: center;
 `;
+
+export const Main = styled.ScrollView`
+  width: 100%;
+  height: 90%;
+  top: 20%;
+  padding-right: 10px;
+  padding-left: 10px;
+`
