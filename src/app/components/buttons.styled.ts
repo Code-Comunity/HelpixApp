@@ -6,3 +6,16 @@ export const StartButton = styled.TouchableOpacity`
   top: 90%;
   left: 80%;
 `;
+
+export const ButtonOption = styled.TouchableOpacity`
+  background-color: #fff;
+  width: 150px;
+  height: 30px;
+  color: #7A60D1;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;

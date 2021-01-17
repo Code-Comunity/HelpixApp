@@ -21,11 +21,11 @@ const Routes: React.FC = () => {
 	return signed ? (
 		<Stack.Navigator initialRouteName="Dashboard">
 			{/* Employee - Alunos */}
-			<Stack.Screen name="Dashboard" component={DashboardEmployee} options={{ headerShown: false }} />
+			<Stack.Screen name="DashboardEmployee" component={DashboardEmployee} options={{ headerShown: false }} />
 			<Stack.Screen name="OpportunitiesEmployee" component={OpportunitiesEmployee} options={{ headerShown: false }} />
 			<Stack.Screen name="CandidateOpportunitie" component={CandidateOpportunitie} options={{ headerShown: false }} />
 			{/* Employer - Empresas */}
-			<Stack.Screen name="Dashboard" component={DashboardEmployer} options={{ headerShown: false }} />
+			<Stack.Screen name="DashboardEmployer" component={DashboardEmployer} options={{ headerShown: false }} />
 			<Stack.Screen name="OpportunitiesEmployer" component={OpportunitiesEmployer} options={{ headerShown: false }} />
 			<Stack.Screen name="PostOpportunities" component={PostOpportunities} options={{ headerShown: false }} />
 			<Stack.Screen name="EditOpportunities" component={EditOpportunities} options={{ headerShown: false }} />
