@@ -11,6 +11,9 @@ import ChooseOptions from '../../app/screens/notAuthenticatedScreen/chooseOption
 import Home from '../../app/screens/notAuthenticatedScreen/home';
 import LoginEmployee from '../../app/screens/notAuthenticatedScreen/LoginEmployee';
 import LoginEmployer from '../../app/screens/notAuthenticatedScreen/LoginEmployer';
+import CadastroEmployee from '../../app/screens/notAuthenticatedScreen/CadastroEmployee';
+import CadastroEmployer from '../../app/screens/notAuthenticatedScreen/CadastroEmployer';
+
 import { AuthContext } from '../contexts/auth/auth';
 
 const Stack = createStackNavigator();
@@ -36,6 +39,8 @@ const Routes: React.FC = () => {
 			<Stack.Screen name="ChooseOptions" component={ChooseOptions} options={{ headerShown: false }} />
 			<Stack.Screen name="LoginEmployer" component={LoginEmployer} options={{ headerShown: false }} />
 			<Stack.Screen name="LoginEmployee" component={LoginEmployee} options={{ headerShown: false }} />
+			<Stack.Screen name="CadastroEmployer" component={CadastroEmployer} options={{ headerShown: false }} />
+			<Stack.Screen name="CadastroEmployee" component={CadastroEmployee} options={{ headerShown: false }} />
 		</Stack.Navigator>
 	);
 };

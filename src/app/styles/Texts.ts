@@ -21,3 +21,13 @@ export const Description = styled.Text`
   line-height: 29px;
 
 `
+export const TextCard = styled.Text`
+  color: #7A60D1;
+  text-align: left;
+`;
+
+export const TittleCard = styled.Text`
+  color: #7A60D1;
+  font-size: 20px;
+
+`;

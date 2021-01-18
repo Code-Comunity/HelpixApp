@@ -19,3 +19,8 @@ export const ButtonOption = styled.TouchableOpacity`
   align-items: center;
   justify-content: center;
 `;
+
+export const ButtonCadastre = styled.TouchableOpacity`
+  text-align: center;
+  
+`;

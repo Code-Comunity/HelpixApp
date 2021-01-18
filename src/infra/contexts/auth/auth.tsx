@@ -6,7 +6,7 @@ export const AuthContext = createContext( {} as IAuth )
 
 export const AuthProvider: React.FC = ({ children }) => {
 
-  const [ user, setUser ] = useState<boolean>(false)
+  const [ user, setUser ] = useState<boolean>(true)
 
   return (
     <AuthContext.Provider value={{ signed: !!user }} >
