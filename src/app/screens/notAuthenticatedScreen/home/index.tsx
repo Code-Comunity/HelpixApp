@@ -11,9 +11,9 @@ const Home: React.FC = ({ navigation }) => {
     <Container bg="#7A60D1">
       <Header>
       <SvgUri
-      width="200"
-      height="200"
-      source={require("../../../assets/LogoWhite.svg")}
+        width="200"
+        height="200"
+        source={require("../../../assets/LogoWhite.svg")}
       />
       </Header>
       <Title textAlign="center" color="#Fff">Bem vindo ao Helpix!</Title>

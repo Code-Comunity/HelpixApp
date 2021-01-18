@@ -22,6 +22,18 @@ export const Description = styled.Text`
 
 `
 
+export const TextCard = styled.Text`
+  color: #7A60D1;
+  text-align: left;
+`;
+
+export const TittleCard = styled.Text`
+  color: #7A60D1;
+  font-size: 20px;
+
+`;
+
+
 export const TitleAbsolute = styled.Text`
   width: ${ (props:any) => props.width || "90%" };
   text-align: ${ (props:any) => props.textAlign || "left" };
