@@ -23,6 +23,7 @@ export const Header = styled.View`
   align-items: center;
 `;
 
+
 export const Session = styled.View`
   width: 80%;
 
@@ -119,3 +120,11 @@ export const CardIcon = styled.View`
   align-items: center;
   margin-right: 8px;
 `;
+
+export const Main = styled.ScrollView`
+  width: 100%;
+  height: 90%;
+  top: ${ (prop: any) => prop.top || "20%"};
+  padding-right: 10px;
+  padding-left: 10px;
+`
