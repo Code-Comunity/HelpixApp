@@ -8,7 +8,7 @@ import { OpportunitiesButton } from "../../../../components/buttons.styled";
 import { Jobs } from "../../../../../infra/services/mock";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-const OpportunitiesEmployee: React.FC = () => {
+const OpportunitiesEmployee: React.FC = ({ navigation }) => {
   return (
     <Container>
       <TitleAbsolute top="10%" left="5%" color="#7A60D1">
@@ -26,7 +26,7 @@ const OpportunitiesEmployee: React.FC = () => {
         {Jobs ? (
           Jobs.map((e: any) => {
             return (
-              <OpportunitiesButton>
+              <OpportunitiesButton key={e.title} onPress={() => navigation.navigate('CandidateOpportunitie') } >
                 <Image
                   width={80}
                   height={80}

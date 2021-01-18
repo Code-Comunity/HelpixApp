@@ -18,7 +18,7 @@ export const Header = styled.View`
 export const Main = styled.ScrollView`
   width: 100%;
   height: 90%;
-  top: 20%;
+  top: ${ (prop: any) => prop.top || "20%"};
   padding-right: 10px;
   padding-left: 10px;
 `
